@@ -13,12 +13,12 @@ public class BestBuyTest extends BasePage {
 		@BeforeTest
 		public void setValues() {
 
-			testCaseName = "Delete all Purchase data  ";
-			testDescription = "Delete all Purchase data for specfic user";
-			nodes = "Recon/Matching";
+			testCaseName = "  ";
+			testDescription = " ";
+			nodes = " ";
 			authors = "Boobala Krishnan";
 			category = "UI ";
-			dataSheetName = "deletepurchasedata";
+			dataSheetName = "";
 		}
 		
 		

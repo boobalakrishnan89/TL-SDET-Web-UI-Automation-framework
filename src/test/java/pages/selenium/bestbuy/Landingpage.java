@@ -28,14 +28,14 @@ public class Landingpage extends BasePage{
 	@FindBy(css=".c-close-icon ")
 	private WebElement closepopup;
 	public Landingpage  clickClosePopup() {
-		acceptAlert();
+		//acceptAlert();
 		waitForclickability(closepopup);
 		click(closepopup);
 		return this;
 	}
 
 	// enter search field
-	@FindBy(id="gh-search-input ")
+	@FindBy(css=".search-input")
 	private WebElement searchField;
 	public Landingpage  typeSearchText() {
 		type(searchField,"Laptops");
